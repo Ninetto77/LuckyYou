@@ -1,0 +1,1181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1828771273781275562
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1828771273781275564}
+  - component: {fileID: 1828771273781275563}
+  - component: {fileID: 1828771273781275565}
+  - component: {fileID: 1828771273781275567}
+  - component: {fileID: 1828771273781275536}
+  - component: {fileID: 1828771273781275538}
+  - component: {fileID: 1828771273781275539}
+  - component: {fileID: 1828771273781275540}
+  - component: {fileID: 5240620200125469270}
+  - component: {fileID: 5240620200125469263}
+  - component: {fileID: 5898437358715057048}
+  - component: {fileID: 5898437358715057058}
+  - component: {fileID: 2006852071}
+  - component: {fileID: 80418972}
+  - component: {fileID: 931417827}
+  - component: {fileID: 1284062091}
+  - component: {fileID: 1163924030}
+  - component: {fileID: 869634207460119627}
+  - component: {fileID: 5641787471587010111}
+  - component: {fileID: 6799642013391764462}
+  - component: {fileID: 860181038565582276}
+  - component: {fileID: 7612049152651853390}
+  - component: {fileID: 1943552556}
+  - component: {fileID: 8112816397687521797}
+  - component: {fileID: 852330210179429383}
+  - component: {fileID: 8087725008824095371}
+  - component: {fileID: 3398685389919850932}
+  m_Layer: 0
+  m_Name: ScriptsHere
+  m_TagString: ScriptsHere
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1828771273781275564
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828771273781275562}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1828771273781275563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828771273781275562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69069e67071840d4f9fd232c75df1aa0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _fraction:
+  - FractionName: Students
+    WaitingTimeToOrder: 40
+    OrderWaitingTime: 80
+    GarbageChance: 50
+    CreateChance: 30
+    EatingTime: 10
+    DoingTime: 50
+    Reputation: 0
+    IsFraction: 0
+    Boss: {fileID: 1340203622614609092, guid: 5d0919f8367612644b52c51b1ee878b4, type: 3}
+  - FractionName: Family
+    WaitingTimeToOrder: 20
+    OrderWaitingTime: 40
+    GarbageChance: 100
+    CreateChance: 30
+    EatingTime: 10
+    DoingTime: 50
+    Reputation: 0
+    IsFraction: 1
+    Boss: {fileID: 1340203622614609092, guid: dd8f6d4f918a9c04eaaf1241e9102015, type: 3}
+  - FractionName: Mafia
+    WaitingTimeToOrder: 20
+    OrderWaitingTime: 40
+    GarbageChance: 100
+    CreateChance: 20
+    EatingTime: 10
+    DoingTime: 50
+    Reputation: 0
+    IsFraction: 2
+    Boss: {fileID: 1340203622614609092, guid: 477c1c51698607c4582747b2646d8b9a, type: 3}
+  - FractionName: Bohemia
+    WaitingTimeToOrder: 20
+    OrderWaitingTime: 20
+    GarbageChance: 50
+    CreateChance: 20
+    EatingTime: 10
+    DoingTime: 50
+    Reputation: 0
+    IsFraction: 3
+    Boss: {fileID: 1340203622614609092, guid: 183a179d3968dd84fb0cc3a54312e501, type: 3}
+--- !u!114 &1828771273781275565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828771273781275562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 590729b28db97964bac7b6378e9a40fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _studentCustomers:
+  - {fileID: 1340203622614609092, guid: 764c70b01d40261458a95fec4f5e8215, type: 3}
+  - {fileID: 1340203622614609092, guid: 5ef8cef63a118244bb0897df606d03f3, type: 3}
+  _familyCustomers:
+  - {fileID: 1340203622614609092, guid: 2fec944ad58d40e40a9b2e3ca4bf977b, type: 3}
+  - {fileID: 1340203622614609092, guid: 546a2230284bceb419af1a579bb42784, type: 3}
+  _mafiaCustomers:
+  - {fileID: 1340203622614609092, guid: 1e7a4a0f24a82d54d928cbb68a75a9be, type: 3}
+  - {fileID: 1340203622614609092, guid: 79b2d403bf51ca64f9bf19e7bbbfe4a0, type: 3}
+  _bohemiaCustomers:
+  - {fileID: 1340203622614609092, guid: 9df7659fa9dd75348985644808627f22, type: 3}
+  - {fileID: 1340203622614609092, guid: f4e5967fc2e2ee840b66d2f1c6c99902, type: 3}
+  _createPosition: {fileID: 0}
+  isStoped: 0
+  _customersInQueue: 0
+--- !u!114 &1828771273781275567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828771273781275562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a1a1ce418214ab458c9122facf31310, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dishes:
+  - DishName: "\u0421\u044D\u043D\u0434\u0432\u0438\u0447"
+    Level: 1
+    isLocked: 0
+    FractionName: 0
+    CookingTime: 10
+    Cost: 1
+    Reputation: 1
+    Icon: {fileID: -124063936, guid: 024d4882a465cb342b67826717ddde6d, type: 3}
+    HideIcon: {fileID: -94945044, guid: caec0c9b3ed292049b9b48ce7c9ac644, type: 3}
+    WishIcon: {fileID: 364626498, guid: f18a9069e75512b4b97b1b57f6277cc8, type: 3}
+    CookingPlace: 2
+  - DishName: "\u041F\u0435\u0447\u0435\u043D\u044C\u0435"
+    Level: 2
+    isLocked: 0
+    FractionName: 0
+    CookingTime: 10
+    Cost: 2
+    Reputation: 2
+    Icon: {fileID: -2021359026, guid: 024d4882a465cb342b67826717ddde6d, type: 3}
+    HideIcon: {fileID: -1367606480, guid: caec0c9b3ed292049b9b48ce7c9ac644, type: 3}
+    WishIcon: {fileID: 477570455, guid: f18a9069e75512b4b97b1b57f6277cc8, type: 3}
+    CookingPlace: 3
+  - DishName: "\u0425\u043E\u0442-\u0434\u043E\u0433"
+    Level: 3
+    isLocked: 1
+    FractionName: 0
+    CookingTime: 10
+    Cost: 3
+    Reputation: 3
+    Icon: {fileID: 99350279, guid: 024d4882a465cb342b67826717ddde6d, type: 3}
+    HideIcon: {fileID: -1404196747, guid: caec0c9b3ed292049b9b48ce7c9ac644, type: 3}
+    WishIcon: {fileID: 416112646, guid: f18a9069e75512b4b97b1b57f6277cc8, type: 3}
+    CookingPlace: 1
+  - DishName: "\u041F\u043E\u043D\u0447\u0438\u043A\u0438"
+    Level: 4
+    isLocked: 1
+    FractionName: 0
+    CookingTime: 10
+    Cost: 4
+    Reputation: 4
+    Icon: {fileID: -2003364948, guid: 024d4882a465cb342b67826717ddde6d, type: 3}
+    HideIcon: {fileID: -270227453, guid: caec0c9b3ed292049b9b48ce7c9ac644, type: 3}
+    WishIcon: {fileID: -344172641, guid: f18a9069e75512b4b97b1b57f6277cc8, type: 3}
+    CookingPlace: 0
+  - DishName: "\u0426\u0435\u0437\u0430\u0440\u044C"
+    Level: 1
+    isLocked: 0
+    FractionName: 1
+    CookingTime: 10
+    Cost: 2
+    Reputation: 2
+    Icon: {fileID: 1938269781, guid: 024d4882a465cb342b67826717ddde6d, type: 3}
+    HideIcon: {fileID: 160159405, guid: caec0c9b3ed292049b9b48ce7c9ac644, type: 3}
+    WishIcon: {fileID: -1570614767, guid: f18a9069e75512b4b97b1b57f6277cc8, type: 3}
+    CookingPlace: 2
+  - DishName: "\u042F\u0431\u043B\u043E\u0447\u043D\u044B\u0439 \u043F\u0438\u0440\u043E\u0433"
+    Level: 2
+    isLocked: 1
+    FractionName: 1
+    CookingTime: 10
+    Cost: 4
+    Reputation: 4
+    Icon: {fileID: -477274089, guid: 024d4882a465cb342b67826717ddde6d, type: 3}
+    HideIcon: {fileID: 611417002, guid: caec0c9b3ed292049b9b48ce7c9ac644, type: 3}
+    WishIcon: {fileID: 63881764, guid: f18a9069e75512b4b97b1b57f6277cc8, type: 3}
+    CookingPlace: 3
+  - DishName: "\u0420\u0435\u0431\u0440\u044B\u0448\u043A\u0438 \u0431\u0430\u0440\u0431\u0435\u043A\u044E"
+    Level: 3
+    isLocked: 1
+    FractionName: 1
+    CookingTime: 10
+    Cost: 6
+    Reputation: 6
+    Icon: {fileID: -1526972312, guid: 024d4882a465cb342b67826717ddde6d, type: 3}
+    HideIcon: {fileID: 611417002, guid: caec0c9b3ed292049b9b48ce7c9ac644, type: 3}
+    WishIcon: {fileID: -285560524, guid: f18a9069e75512b4b97b1b57f6277cc8, type: 3}
+    CookingPlace: 1
+  - DishName: "\u041A\u0440\u044B\u043B\u044B\u0448\u043A\u0438 \u0411\u0443\u0444\u0444\u0430\u043B\u043E"
+    Level: 4
+    isLocked: 1
+    FractionName: 1
+    CookingTime: 10
+    Cost: 8
+    Reputation: 8
+    Icon: {fileID: 2098424281, guid: 024d4882a465cb342b67826717ddde6d, type: 3}
+    HideIcon: {fileID: 285429974, guid: caec0c9b3ed292049b9b48ce7c9ac644, type: 3}
+    WishIcon: {fileID: 850258282, guid: f18a9069e75512b4b97b1b57f6277cc8, type: 3}
+    CookingPlace: 0
+  - DishName: "\u041F\u0430\u0441\u0442\u0430"
+    Level: 1
+    isLocked: 0
+    FractionName: 2
+    CookingTime: 10
+    Cost: 3
+    Reputation: 3
+    Icon: {fileID: -2026273639, guid: 024d4882a465cb342b67826717ddde6d, type: 3}
+    HideIcon: {fileID: -1128604586, guid: caec0c9b3ed292049b9b48ce7c9ac644, type: 3}
+    WishIcon: {fileID: -568020242, guid: f18a9069e75512b4b97b1b57f6277cc8, type: 3}
+    CookingPlace: 2
+  - DishName: "\u041C\u0430\u0440\u0433\u0430\u0440\u0438\u0442\u0430"
+    Level: 2
+    isLocked: 1
+    FractionName: 2
+    CookingTime: 10
+    Cost: 6
+    Reputation: 0
+    Icon: {fileID: 46034873, guid: 024d4882a465cb342b67826717ddde6d, type: 3}
+    HideIcon: {fileID: -422797254, guid: caec0c9b3ed292049b9b48ce7c9ac644, type: 3}
+    WishIcon: {fileID: 1416983898, guid: f18a9069e75512b4b97b1b57f6277cc8, type: 3}
+    CookingPlace: 3
+  - DishName: "\u0421\u0442\u0435\u0439\u043A"
+    Level: 3
+    isLocked: 1
+    FractionName: 2
+    CookingTime: 10
+    Cost: 9
+    Reputation: 0
+    Icon: {fileID: 891735846, guid: 024d4882a465cb342b67826717ddde6d, type: 3}
+    HideIcon: {fileID: -1867966691, guid: caec0c9b3ed292049b9b48ce7c9ac644, type: 3}
+    WishIcon: {fileID: 763873782, guid: f18a9069e75512b4b97b1b57f6277cc8, type: 3}
+    CookingPlace: 1
+  - DishName: "\u041A\u0430\u0440\u0442\u043E\u0444\u0435\u043B\u044C \u0444\u0440\u0438"
+    Level: 4
+    isLocked: 1
+    FractionName: 2
+    CookingTime: 10
+    Cost: 12
+    Reputation: 0
+    Icon: {fileID: -328386199, guid: 024d4882a465cb342b67826717ddde6d, type: 3}
+    HideIcon: {fileID: -182315131, guid: caec0c9b3ed292049b9b48ce7c9ac644, type: 3}
+    WishIcon: {fileID: -1734709793, guid: f18a9069e75512b4b97b1b57f6277cc8, type: 3}
+    CookingPlace: 0
+  - DishName: "\u041A\u0440\u0435\u043C-\u0441\u0443\u043F"
+    Level: 1
+    isLocked: 0
+    FractionName: 3
+    CookingTime: 10
+    Cost: 4
+    Reputation: 4
+    Icon: {fileID: -386960654, guid: 024d4882a465cb342b67826717ddde6d, type: 3}
+    HideIcon: {fileID: 912092293, guid: caec0c9b3ed292049b9b48ce7c9ac644, type: 3}
+    WishIcon: {fileID: 1365115470, guid: f18a9069e75512b4b97b1b57f6277cc8, type: 3}
+    CookingPlace: 2
+  - DishName: "\u0413\u043B\u0443\u0431\u043E\u043A\u0430\u044F \u043F\u0438\u0446\u0446\u0430
+      \u043F\u043E-\u0427\u0438\u043A\u0430\u0433\u0441\u043A\u0438"
+    Level: 2
+    isLocked: 1
+    FractionName: 3
+    CookingTime: 10
+    Cost: 8
+    Reputation: 0
+    Icon: {fileID: -42911498, guid: 024d4882a465cb342b67826717ddde6d, type: 3}
+    HideIcon: {fileID: 1735566479, guid: caec0c9b3ed292049b9b48ce7c9ac644, type: 3}
+    WishIcon: {fileID: 856665291, guid: f18a9069e75512b4b97b1b57f6277cc8, type: 3}
+    CookingPlace: 3
+  - DishName: "\u041E\u0432\u043E\u0449\u0438 \u0433\u0440\u0438\u043B\u044C"
+    Level: 3
+    isLocked: 1
+    FractionName: 3
+    CookingTime: 10
+    Cost: 12
+    Reputation: 0
+    Icon: {fileID: -3735850, guid: 024d4882a465cb342b67826717ddde6d, type: 3}
+    HideIcon: {fileID: 1194923855, guid: caec0c9b3ed292049b9b48ce7c9ac644, type: 3}
+    WishIcon: {fileID: -963313233, guid: f18a9069e75512b4b97b1b57f6277cc8, type: 3}
+    CookingPlace: 1
+  - DishName: "\u0424\u0440\u0443\u043A\u0442\u044B \u0432 \u043A\u0430\u0440\u0430\u043C\u0435\u043B\u0438"
+    Level: 4
+    isLocked: 1
+    FractionName: 3
+    CookingTime: 10
+    Cost: 16
+    Reputation: 0
+    Icon: {fileID: -1643529487, guid: 024d4882a465cb342b67826717ddde6d, type: 3}
+    HideIcon: {fileID: -447572466, guid: caec0c9b3ed292049b9b48ce7c9ac644, type: 3}
+    WishIcon: {fileID: -1538772524, guid: f18a9069e75512b4b97b1b57f6277cc8, type: 3}
+    CookingPlace: 0
+  cookingPlaces:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &1828771273781275536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828771273781275562}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ed0bf2aab84cc34e8858b0873bc7079, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cookingTimeBase: 5
+--- !u!114 &1828771273781275538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828771273781275562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fd9690341eb1754a808c0fc65ffa888, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1828771273781275539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828771273781275562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de4ddbda179f65c40a7e773f52b801c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _fractionDishChance: 60
+--- !u!114 &1828771273781275540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828771273781275562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96786a41d4f36a94093cdf1c7f732245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walletBalance: 100
+--- !u!114 &5240620200125469270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828771273781275562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7879eff6fed6df74983f725f486fae87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _moneyText: {fileID: 0}
+--- !u!114 &5240620200125469263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828771273781275562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 636b9d5fa8ac6224ea89b5a63d34482c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _progressUI: {fileID: 0}
+  _baseReputationMax: 50
+  _levelText: {fileID: 0}
+  baseReputation: 0
+  baseReputationLevel: 1
+--- !u!114 &5898437358715057048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828771273781275562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 634ce0f8a98523b428f63ecebbc49c45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _busyAnchorParent: {fileID: 0}
+--- !u!114 &5898437358715057058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828771273781275562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b9454c1b279dc2489e1effb1c8fa1ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _numberOfTableAnchors: 6
+--- !u!114 &2006852071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828771273781275562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46975cedab6f90540ae148a5f3771b52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _CashRegisterBusy: 0
+--- !u!114 &80418972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828771273781275562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afbe7ba4ae5c4bf48a5d17b43f8f983e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quests:
+  - QuestName: "\u0418\u0441\u0442\u043E\u0440\u0438\u044F \u043F\u0440\u043E\u0433\u0443\u043B\u043E\u0432"
+    QuestFromFraction: 0
+    QuestBody: "\u041C\u0438\u0441\u0442\u0435\u0440 \u041A\u0440\u0430\u043D\u0447
+      \u0440\u0430\u0437\u0440\u0435\u0448\u0430\u043B \u043D\u0430\u043C \u0441\u043E\u0431\u0438\u0440\u0430\u0442\u044C\u0441\u044F
+      \u0442\u0443\u0442 \u0438 \u043E\u0431\u0441\u0443\u0436\u0434\u0430\u0442\u044C
+      \u0434\u0435\u043B\u0430 \u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u0430.
+      \u041D\u0430\u0434\u0435\u044E\u0441\u044C \u0441 \u0432\u0430\u0448\u0438\u043C
+      \u043F\u0440\u0438\u0445\u043E\u0434\u043E\u043C \u043D\u0438\u0447\u0435\u0433\u043E
+      \u043D\u0435 \u0438\u0437\u043C\u0435\u043D\u0438\u043B\u043E\u0441\u044C?
+      \u041C\u043E\u0436\u043D\u043E \u043C\u044B \u0431\u0443\u0434\u0435\u043C
+      \u0437\u0430\u0445\u043E\u0434\u0438\u0442\u044C \u043A \u0432\u0430\u043C
+      \u0432\u043C\u0435\u0441\u0442\u043E \u0437\u0430\u043D\u044F\u0442\u0438\u0439?
+      \u0411\u043B\u0430\u0433\u043E\u0434\u0430\u0440\u044E."
+    QuestDishesNeed: 03000000
+    QuestDishesHave: 00000000
+    QuestDish:
+    - "\u0421\u044D\u043D\u0434\u0432\u0438\u0447"
+    ReputationBarrier: 1
+    QuestLevel: 1
+    QuestStatus: 0
+    QuestDone: "\u0411\u043E\u043B\u044C\u0448\u043E\u0435 \u0441\u043F\u0430\u0441\u0438\u0431\u043E
+      \u0432\u0430\u043C \u0437\u0430 \u0443\u0433\u043E\u0449\u0435\u043D\u0438\u0435!
+      \u0423 \u043D\u0430\u0441 \u043D\u0435\u0434\u0430\u0432\u043D\u043E \u0431\u044B\u043B\u0430
+      \u0441\u0442\u0438\u043F\u0435\u043D\u0434\u0438\u044F \u0438 \u043C\u044B
+      \u043D\u0435\u043C\u043D\u043E\u0433\u043E \u0441\u043A\u0438\u043D\u0443\u043B\u0438\u0441\u044C
+      \u043D\u0430 \u0445\u043E\u0440\u043E\u0448\u0438\u0435 \u0447\u0430\u0435\u0432\u044B\u0435.
+      \u0422\u043E\u043B\u044C\u043A\u043E, \u043F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430,
+      \u043D\u0435 \u0433\u043E\u0432\u043E\u0440\u0438\u0442\u0435 \u0434\u0435\u043A\u0430\u043D\u0443
+      \u0447\u0442\u043E \u043C\u044B \u0431\u044B\u043B\u0438 \u0443 \u0432\u0430\u0441
+      \u0434\u043D\u0435\u043C"
+    QuestRewardText: "15 \u043E\u043F\u044B\u0442\u0430"
+    MoneyReward: 0
+    RepReward: 15
+    UnlockLevelReward: 0
+    UnlockElementCount: 0
+    BossSprite: {fileID: -769971484, guid: 50c64546b4ec08949ba3e6fca8448668, type: 3}
+    CookingPlace: 2
+  - QuestName: "\u041A\u0440\u043E\u0448\u043A\u0438 \u043F\u043E\u0434 \u043F\u0430\u0440\u0442\u043E\u0439"
+    QuestFromFraction: 0
+    QuestBody: "\u042F \u0441\u043B\u044B\u0448\u0430\u043B, \u0443 \u0432\u0430\u0441
+      \u0445\u043E\u0440\u043E\u0448\u0435\u0435 \u043F\u0435\u0447\u0435\u043D\u044C\u0435!
+      \u041D\u0430\u043C \u0442\u0430\u043A\u043E\u0435 \u043D\u0443\u0436\u043D\u043E.
+      \u0413\u043E\u0432\u043E\u0440\u044F\u0442, \u043D\u0430\u0448 \u0437\u043B\u043E\u0439
+      \u043F\u0440\u043E\u0444\u0435\u0441\u0441\u043E\u0440 \u043B\u044E\u0431\u0438\u0442
+      \u043F\u0435\u0447\u0435\u043D\u044C\u0435. \u0414\u0443\u043C\u0430\u044E,
+      \u044D\u0442\u043E \u043F\u043E\u043C\u043E\u0436\u0435\u0442 \u0441\u0434\u0430\u0442\u044C
+      \u044D\u043A\u0437\u0430\u043C\u0435\u043D \u043B\u0435\u0433\u0447\u0435."
+    QuestDishesNeed: 01000000
+    QuestDishesHave: 00000000
+    QuestDish:
+    - "\u041F\u0435\u0447\u0435\u043D\u044C\u0435"
+    ReputationBarrier: 2
+    QuestLevel: 2
+    QuestStatus: 0
+    QuestDone: "\u041D\u0430\u0448 \u0437\u043B\u043E\u0439 \u043F\u0440\u043E\u0444\u0435\u0441\u0441\u043E\u0440
+      \u043E\u043A\u0430\u0437\u0430\u043B\u0441\u044F \u0434\u043E\u0432\u043E\u043B\u0435\u043D!
+      \u0420\u0435\u0431\u044F\u0442\u0430 \u0441 \u0435\u0433\u043E \u043A\u0430\u0444\u0435\u0434\u0440\u044B
+      \u0432\u044B\u0437\u0432\u0430\u043B\u0438\u0441\u044C \u043F\u043E\u0440\u0430\u0431\u043E\u0442\u0430\u0442\u044C
+      \u043D\u0430\u0434 \u0432\u0430\u0448\u0435\u0439 \u043F\u043B\u0438\u0442\u043E\u0439.
+      \u041D\u0435 \u0432\u043E\u043B\u043D\u0443\u0439\u0442\u0435\u0441\u044C,
+      \u043E\u043D\u0438 \u0445\u043E\u0442\u044C \u0438 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\u043D\u0442\u044B,
+      \u043D\u043E \u0432 \u0442\u0435\u0445\u043D\u0438\u043A\u0435 \u0440\u0430\u0437\u0431\u0438\u0440\u0430\u044E\u0442\u0441\u044F!"
+    QuestRewardText: "\u0414\u043E\u0441\u0442\u0443\u043F\u043D\u043E \u0443\u043B\u0443\u0447\u0448\u0435\u043D\u0438\u0435
+      \u0442\u0435\u0445\u043D\u0438\u043A\u0438 1 \u0443\u0440\u043E\u0432\u043D\u044F"
+    MoneyReward: 0
+    RepReward: 0
+    UnlockLevelReward: 1
+    UnlockElementCount: 0
+    BossSprite: {fileID: -769971484, guid: 50c64546b4ec08949ba3e6fca8448668, type: 3}
+    CookingPlace: 0
+  - QuestName: "\u041A\u0430\u043D\u0438\u043A\u0443\u043B\u044B \u0432 \u0427\u0438\u043A\u0430\u0433\u043E"
+    QuestFromFraction: 0
+    QuestBody: "\u0423 \u043D\u0430\u0441 \u043D\u0430\u043C\u0435\u0447\u0430\u0435\u0442\u0441\u044F
+      \u043D\u0435\u0431\u043E\u043B\u044C\u0448\u0430\u044F \u0432\u0435\u0447\u0435\u0440\u0438\u043D\u043A\u0430.
+      \u041F\u0440\u043E\u0441\u0442\u0438\u0442\u0435, \u0447\u0442\u043E \u0442\u0430\u043A
+      \u043F\u043E\u0437\u0434\u043D\u043E \u0433\u043E\u0432\u043E\u0440\u0438\u043C,
+      \u043D\u043E \u0432\u044B \u0432\u0435\u0434\u044C \u0441\u043F\u0440\u0430\u0432\u0438\u0442\u0435\u0441\u044C?"
+    QuestDishesNeed: 050000000300000003000000
+    QuestDishesHave: 000000000000000000000000
+    QuestDish:
+    - "\u0425\u043E\u0442-\u0434\u043E\u0433"
+    - "\u0421\u044D\u043D\u0434\u0432\u0438\u0447"
+    - "\u041F\u0435\u0447\u0435\u043D\u044C\u0435"
+    ReputationBarrier: 3
+    QuestLevel: 3
+    QuestStatus: 0
+    QuestDone: "\u0421\u043F\u0430\u0441\u0438\u0431\u043E \u0437\u0430 \u0443\u0433\u043E\u0449\u0435\u043D\u0438\u0435!
+      \u0420\u0435\u0431\u044F\u0442\u0430 \u0441 \u043A\u0430\u0444\u0435\u0434\u0440\u044B
+      \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438 \u0432\u044B\u0437\u0432\u0430\u043B\u0438\u0441\u044C
+      \u043F\u043E\u0440\u0430\u0431\u043E\u0442\u0430\u0442\u044C \u043D\u0430\u0434
+      \u0432\u0430\u0448\u0435\u0439 \u043F\u043B\u0438\u0442\u043E\u0439. \u041D\u0435
+      \u0432\u043E\u043B\u043D\u0443\u0439\u0442\u0435\u0441\u044C, \u043E\u043D\u0438
+      \u0445\u043E\u0442\u044C \u0438 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\u043D\u0442\u044B,
+      \u043D\u043E \u0432 \u0442\u0435\u0445\u043D\u0438\u043A\u0435 \u0440\u0430\u0437\u0431\u0438\u0440\u0430\u044E\u0442\u0441\u044F!"
+    QuestRewardText: "\u0414\u043E\u0441\u0442\u0443\u043F\u043D\u043E \u0443\u043B\u0443\u0447\u0448\u0435\u043D\u0438\u0435
+      \u0442\u0435\u0445\u043D\u0438\u043A\u0438 2 \u0443\u0440\u043E\u0432\u043D\u044F"
+    MoneyReward: 0
+    RepReward: 0
+    UnlockLevelReward: 2
+    UnlockElementCount: 0
+    BossSprite: {fileID: -769971484, guid: 50c64546b4ec08949ba3e6fca8448668, type: 3}
+    CookingPlace: 0
+  - QuestName: "\u041D\u043E\u0447\u044C \u043F\u0435\u0440\u0435\u0434 \u044D\u043A\u0437\u0430\u043C\u0435\u043D\u043E\u043C"
+    QuestFromFraction: 0
+    QuestBody: "\u041D\u0435\u0442 \u0432\u0440\u0435\u043C\u0435\u043D\u0438 \u043E\u0431\u044A\u044F\u0441\u043D\u044F\u0442\u044C,
+      \u043D\u0430\u043C \u043D\u0443\u0436\u043D\u044B \u0443\u0433\u043B\u0435\u0432\u043E\u0434\u044B
+      \u0434\u043B\u044F \u043C\u043E\u0437\u0433\u043E\u0432! \u041F\u043E\u043D\u0447\u0438\u043A\u0438
+      \u0431\u0443\u0434\u0435\u0442 \u0441\u0430\u043C\u043E\u0435 \u0442\u043E.
+      \u041D\u0430\u0434\u0435\u044E\u0441\u044C \u043E\u043D\u0438 \u0441\u043A\u0440\u0430\u0441\u044F\u0442
+      \u0431\u0435\u0441\u0441\u043E\u043D\u043D\u0443\u044E \u043D\u043E\u0447\u044C"
+    QuestDishesNeed: 01000000
+    QuestDishesHave: 00000000
+    QuestDish:
+    - "\u041F\u043E\u043D\u0447\u0438\u043A\u0438"
+    ReputationBarrier: 4
+    QuestLevel: 4
+    QuestStatus: 0
+    QuestDone: "\u0421\u043F\u0430\u0441\u0438\u0431\u043E \u0437\u0430 \u0443\u0433\u043E\u0449\u0435\u043D\u0438\u0435!
+      \u0420\u0435\u0431\u044F\u0442\u0430 \u0441 \u043A\u0430\u0444\u0435\u0434\u0440\u044B
+      \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438 \u0432\u044B\u0437\u0432\u0430\u043B\u0438\u0441\u044C
+      \u043F\u043E\u0440\u0430\u0431\u043E\u0442\u0430\u0442\u044C \u043D\u0430\u0434
+      \u0432\u0430\u0448\u0435\u0439 \u043F\u043B\u0438\u0442\u043E\u0439. \u041D\u0435
+      \u0432\u043E\u043B\u043D\u0443\u0439\u0442\u0435\u0441\u044C, \u043E\u043D\u0438
+      \u0445\u043E\u0442\u044C \u0438 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\u043D\u0442\u044B,
+      \u043D\u043E \u0432 \u0442\u0435\u0445\u043D\u0438\u043A\u0435 \u0440\u0430\u0437\u0431\u0438\u0440\u0430\u044E\u0442\u0441\u044F!"
+    QuestRewardText: "\u0414\u043E\u0441\u0442\u0443\u043F\u043D\u043E \u0443\u043B\u0443\u0447\u0448\u0435\u043D\u0438\u0435
+      \u0442\u0435\u0445\u043D\u0438\u043A\u0438 3 \u0443\u0440\u043E\u0432\u043D\u044F"
+    MoneyReward: 0
+    RepReward: 0
+    UnlockLevelReward: 3
+    UnlockElementCount: 0
+    BossSprite: {fileID: -769971484, guid: 50c64546b4ec08949ba3e6fca8448668, type: 3}
+    CookingPlace: 0
+  - QuestName: "\u0418 \u0442\u044B\u2026 \u0426\u0435\u0437\u0430\u0440\u044C"
+    QuestFromFraction: 1
+    QuestBody: "\u041F\u0440\u0438\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u044E!
+      \u0420\u0435\u0448\u0438\u043B \u0437\u0430\u0439\u0442\u0438, \u043F\u043E\u0437\u043D\u0430\u043A\u043E\u043C\u0438\u0442\u044C\u0441\u044F
+      \u043B\u0438\u0447\u043D\u043E. \u0410\u043B\u0435\u043A\u0441 \u0432\u043A\u0440\u0430\u0442\u0446\u0435
+      \u0440\u0430\u0441\u0441\u043A\u0430\u0437\u0430\u043B \u043E \u0442\u0435\u0431\u0435.
+      \u041D\u0430\u0434\u0435\u044E\u0441\u044C \u0432\u044B \u0432\u0441\u0435
+      \u0442\u0430\u043A\u0436\u0435 \u043F\u043E\u0434\u0430\u0435\u0442\u0435 \u043F\u0440\u0435\u0432\u043E\u0441\u0445\u043E\u0434\u043D\u044B\u0439
+      \u0441\u0430\u043B\u0430\u0442 \u0426\u0435\u0437\u0430\u0440\u044C?"
+    QuestDishesNeed: 02000000
+    QuestDishesHave: 00000000
+    QuestDish:
+    - "\u0426\u0435\u0437\u0430\u0440\u044C"
+    ReputationBarrier: 1
+    QuestLevel: 1
+    QuestStatus: 0
+    QuestDone: "\u041E, \u044D\u0442\u043E \u043F\u0440\u043E\u0441\u0442\u043E \u043E\u0442\u043B\u0438\u0447\u043D\u043E!
+      \u042F \u043E\u0431\u044F\u0437\u0430\u0442\u0435\u043B\u044C\u043D\u043E \u0440\u0430\u0441\u0441\u043A\u0430\u0436\u0443
+      \u043E \u0442\u0435\u0431\u0435 \u0441\u0432\u043E\u0438\u043C \u0441\u043E\u0441\u0435\u0434\u044F\u043C.
+      \u0414\u0435\u0440\u0436\u0438, \u044D\u0442\u043E \u043A\u043D\u0438\u0433\u0430
+      \u0440\u0435\u0446\u0435\u043F\u0442\u043E\u0432, \u043E\u043D\u0430 \u0434\u043E\u0441\u0442\u0430\u043B\u0430\u0441\u044C
+      \u043C\u043D\u0435 \u043E\u0442 \u0431\u0430\u0431\u0443\u0448\u043A\u0438
+      \u0438 \u043B\u0435\u0436\u0430\u043B\u0430 \u043C\u043D\u043E\u0433\u043E
+      \u043B\u0435\u0442 \u0432 \u0448\u043A\u0430\u0444\u0443\u2026 \u0414\u0443\u043C\u0430\u044E
+      \u0442\u0435\u0431\u0435 \u043E\u043D\u0430 \u0442\u043E\u0447\u043D\u043E
+      \u043F\u0440\u0438\u0433\u043E\u0434\u0438\u0442\u0441\u044F."
+    QuestRewardText: "\u041A\u043D\u0438\u0433\u0430 \u0440\u0435\u0446\u0435\u043F\u0442\u043E\u0432
+      \u0434\u043B\u044F \u043F\u0435\u0447\u0438"
+    MoneyReward: 0
+    RepReward: 0
+    UnlockLevelReward: 0
+    UnlockElementCount: 0
+    BossSprite: {fileID: 1062206705, guid: 50c64546b4ec08949ba3e6fca8448668, type: 3}
+    CookingPlace: 3
+  - QuestName: "\u041F\u0438\u043A\u043D\u0438\u043A \u0432 \u0441\u0430\u0434\u0443"
+    QuestFromFraction: 1
+    QuestBody: "\u0423\u0436\u0435 \u043D\u0435 \u0437\u043D\u0430\u044E \u0447\u0435\u043C
+      \u043A\u043E\u0440\u043C\u0438\u0442\u044C \u043E\u0431\u0449\u0435\u0441\u0442\u0432\u043E
+      \u0441\u0430\u0434\u043E\u0432\u043E\u0434\u043E\u0432. \u0412\u043A\u0443\u0441\u044B
+      \u0440\u0430\u0437\u043D\u044B\u0435, \u0430 \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u044B
+      \u0442\u0430\u043A \u0432\u043E\u043E\u0431\u0449\u0435 - \u0445\u0443\u0436\u0435
+      \u0426\u0435\u0437\u0430\u0440\u044F... \u041A\u0441\u0442\u0430\u0442\u0438,
+      \u043C\u043D\u0435 \u043D\u0443\u0436\u043D\u043E \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u043E
+      \u043F\u043E\u0440\u0446\u0438\u0439 \u0441\u0430\u043B\u0430\u0442\u0430 \u0434\u043B\u044F
+      \u044D\u0442\u0438\u0445 \u0442\u0440\u0430\u0432\u043E\u044F\u0434\u043D\u044B\u0445
+      \u0438 \u0435\u0449\u0435 \u043A\u0430\u043A\u043E\u0439-\u043D\u0438\u0431\u0443\u0434\u044C
+      \u043F\u0438\u0440\u043E\u0433"
+    QuestDishesNeed: 0100000001000000
+    QuestDishesHave: 0000000000000000
+    QuestDish:
+    - "\u0426\u0435\u0437\u0430\u0440\u044C"
+    - "\u042F\u0431\u043B\u043E\u0447\u043D\u044B\u0439 \u043F\u0438\u0440\u043E\u0433"
+    ReputationBarrier: 2
+    QuestLevel: 2
+    QuestStatus: 0
+    QuestDone: "\u0421\u043F\u0430\u0441\u0438\u0431\u043E, \u0447\u0442\u043E \u0432\u044B\u0440\u0443\u0447\u0438\u043B!
+      \u041A\u0441\u0442\u0430\u0442\u0438, \u044F \u043D\u0430\u0448\u0435\u043B
+      \u0435\u0449\u0435 \u043E\u0434\u043D\u0443 \u043A\u043D\u0438\u0433\u0443
+      \u0440\u0435\u0446\u0435\u043F\u0442\u043E\u0432. \u0412\u043E\u0437\u044C\u043C\u0438,
+      \u043B\u0443\u0447\u0448\u0435 \u043E\u043D\u0430 \u043F\u043E\u0441\u043B\u0443\u0436\u0438\u0442
+      \u0442\u0435\u0431\u0435, \u0447\u0435\u043C \u0431\u0443\u0434\u0435\u0442
+      \u043F\u044B\u043B\u0438\u0442\u044C\u0441\u044F \u0443 \u043C\u0435\u043D\u044F."
+    QuestRewardText: "\u041A\u043D\u0438\u0433\u0430 \u0440\u0435\u0446\u0435\u043F\u0442\u043E\u0432
+      \u0434\u043B\u044F \u0433\u0440\u0438\u043B\u044F"
+    MoneyReward: 0
+    RepReward: 0
+    UnlockLevelReward: 0
+    UnlockElementCount: 0
+    BossSprite: {fileID: 1062206705, guid: 50c64546b4ec08949ba3e6fca8448668, type: 3}
+    CookingPlace: 1
+  - QuestName: "\u0414\u0435\u043B\u0430 \u0441\u0435\u043C\u0435\u0439\u043D\u044B\u0435"
+    QuestFromFraction: 1
+    QuestBody: "\u042F \u0445\u043E\u0442\u044C \u0438 \u0445\u043E\u0440\u043E\u0448\u0438\u0439
+      \u0441\u0435\u043C\u044C\u044F\u043D\u0438\u043D, \u043D\u043E \u043C\u043D\u0435
+      \u0442\u043E\u0436\u0435 \u0445\u043E\u0447\u0435\u0442\u0441\u044F \u043E\u0442\u0434\u043E\u0445\u043D\u0443\u0442\u044C.
+      \u0425\u043E\u0447\u0443 \u0437\u0430\u043A\u0443\u043F\u0438\u0442\u044C\u0441\u044F
+      \u0443 \u0442\u0435\u0431\u044F \u043F\u043E \u043F\u043E\u043B\u043D\u043E\u0439,
+      \u0447\u0442\u043E\u0431\u044B \u043D\u0435 \u0434\u0443\u043C\u0430\u0442\u044C
+      \u043E \u0433\u043E\u0442\u043E\u0432\u043A\u0435 \u043D\u0430 \u0432\u044B\u0445\u043E\u0434\u043D\u044B\u0445"
+    QuestDishesNeed: 020000000200000002000000
+    QuestDishesHave: 000000000000000000000000
+    QuestDish:
+    - "\u0426\u0435\u0437\u0430\u0440\u044C"
+    - "\u042F\u0431\u043B\u043E\u0447\u043D\u044B\u0439 \u043F\u0438\u0440\u043E\u0433"
+    - "\u0420\u0435\u0431\u0440\u044B\u0448\u043A\u0438 \u0431\u0430\u0440\u0431\u0435\u043A\u044E"
+    ReputationBarrier: 3
+    QuestLevel: 20
+    QuestStatus: 0
+    QuestDone: "\u0421\u043F\u0430\u0441\u0438\u0431\u043E, \u0447\u0442\u043E \u0432\u044B\u0440\u0443\u0447\u0438\u043B!
+      \u041A\u0441\u0442\u0430\u0442\u0438, \u044F \u043D\u0430\u0448\u0435\u043B
+      \u0435\u0449\u0435 \u043E\u0434\u043D\u0443 \u043A\u043D\u0438\u0433\u0443
+      \u0440\u0435\u0446\u0435\u043F\u0442\u043E\u0432. \u0412\u043E\u0437\u044C\u043C\u0438,
+      \u043B\u0443\u0447\u0448\u0435 \u043E\u043D\u0430 \u043F\u043E\u0441\u043B\u0443\u0436\u0438\u0442
+      \u0442\u0435\u0431\u0435, \u0447\u0435\u043C \u0431\u0443\u0434\u0435\u0442
+      \u043F\u044B\u043B\u0438\u0442\u044C\u0441\u044F \u0443 \u043C\u0435\u043D\u044F."
+    QuestRewardText: "\u041A\u043D\u0438\u0433\u0430 \u0440\u0435\u0446\u0435\u043F\u0442\u043E\u0432
+      \u0434\u043B\u044F \u0444\u0440\u0438\u0442\u044E\u0440\u0430"
+    MoneyReward: 0
+    RepReward: 0
+    UnlockLevelReward: 0
+    UnlockElementCount: 0
+    BossSprite: {fileID: 1062206705, guid: 50c64546b4ec08949ba3e6fca8448668, type: 3}
+    CookingPlace: 0
+  - QuestName: "\u0414\u043E\u0431\u0440\u043E\u0441\u043E\u0441\u0435\u0434\u0441\u0442\u0432\u043E"
+    QuestFromFraction: 1
+    QuestBody: "\u042F \u0440\u0435\u0448\u0438\u043B \u0443\u0441\u0442\u0440\u043E\u0438\u0442\u044C
+      \u0432\u0435\u0447\u0435\u0440\u0438\u043D\u043A\u0443 \u0432 \u0447\u0435\u0441\u0442\u044C
+      \u043D\u043E\u0432\u044B\u0445 \u0441\u043E\u0441\u0435\u0434\u0435\u0439.
+      \u041D\u0430\u0432\u0435\u0440\u043D\u043E\u0435 \u043C\u043D\u0435 \u043D\u0443\u0436\u043D\u043E
+      \u0432\u0441\u0435, \u0447\u0442\u043E \u0443 \u0442\u0435\u0431\u044F \u0435\u0441\u0442\u044C.
+      \u041F\u043E\u043C\u043E\u0436\u0435\u0448\u044C?"
+    QuestDishesNeed: 030000000300000003000000
+    QuestDishesHave: 000000000000000000000000
+    QuestDish:
+    - "\u042F\u0431\u043B\u043E\u0447\u043D\u044B\u0439 \u043F\u0438\u0440\u043E\u0433"
+    - "\u0420\u0435\u0431\u0440\u044B\u0448\u043A\u0438 \u0431\u0430\u0440\u0431\u0435\u043A\u044E"
+    - "\u041A\u0440\u044B\u043B\u044B\u0448\u043A\u0438 \u0411\u0443\u0444\u0444\u0430\u043B\u043E"
+    ReputationBarrier: 4
+    QuestLevel: 4
+    QuestStatus: 0
+    QuestDone: "\u0414\u0430, \u044D\u0442\u043E \u0431\u044B\u043B \u043D\u0430\u0441\u0442\u043E\u044F\u0449\u0438\u0439
+      \u043F\u0438\u0440! \u0422\u0432\u043E\u044F \u0441\u0442\u0440\u044F\u043F\u043D\u044F
+      \u0431\u044B\u043B\u0430 \u0432\u044B\u0448\u0435 \u0432\u0441\u044F\u043A\u0438\u0445
+      \u043F\u043E\u0445\u0432\u0430\u043B, \u0442\u0435\u043F\u0435\u0440\u044C
+      \u0432\u0435\u0441\u044C \u0433\u043E\u0440\u043E\u0434 \u0443\u0437\u043D\u0430\u0435\u0442
+      \u043E\u0431 \u044D\u0442\u043E\u043C \u043C\u0435\u0441\u0442\u0435!"
+    QuestRewardText: "75 \u043E\u043F\u044B\u0442\u0430"
+    MoneyReward: 0
+    RepReward: 0
+    UnlockLevelReward: 0
+    UnlockElementCount: 0
+    BossSprite: {fileID: 1062206705, guid: 50c64546b4ec08949ba3e6fca8448668, type: 3}
+    CookingPlace: 0
+  - QuestName: "\u041F\u0430\u0441\u0442\u0430 \u041B\u0430 \u0411\u043E\u0440\u043D\u0430"
+    QuestFromFraction: 2
+    QuestBody: "\u0410\u043B\u0435\u043A\u0441 \u043E\u0441\u0442\u0430\u0432\u0438\u043B
+      \u044D\u0442\u043E \u0437\u0430\u0432\u0435\u0434\u0435\u043D\u0438\u0435 \u043D\u0430
+      \u0442\u0435\u0431\u044F? \u0420\u0438\u0441\u043A\u043E\u0432\u0430\u043D\u043D\u043E.
+      \u041E\u0447\u0435\u043D\u044C \u0440\u0438\u0441\u043A\u043E\u0432\u0430\u043D\u043D\u043E.
+      \u0425\u043E\u0440\u043E\u0448\u043E, \u043F\u0440\u0438\u0433\u043E\u0442\u043E\u0432\u044C
+      \u043C\u043D\u0435 \u0438\u0442\u0430\u043B\u044C\u044F\u043D\u0441\u043A\u0443\u044E
+      \u043F\u0430\u0441\u0442\u0443. \u041F\u043E\u0441\u043C\u043E\u0442\u0440\u0438\u043C,
+      \u0435\u0441\u0442\u044C \u043B\u0438 \u0443 \u044D\u0442\u043E\u0433\u043E
+      \u043C\u0435\u0441\u0442\u0430 \u0431\u0443\u0434\u0443\u0449\u0435\u0435."
+    QuestDishesNeed: 01000000
+    QuestDishesHave: 00000000
+    QuestDish:
+    - "\u041F\u0430\u0441\u0442\u0430"
+    ReputationBarrier: 1
+    QuestLevel: 1
+    QuestStatus: 0
+    QuestDone: "\u041D\u0435\u043F\u043B\u043E\u0445\u043E, \u0441\u043E\u0432\u0441\u0435\u043C
+      \u043D\u0435\u043F\u043B\u043E\u0445\u043E. \u041B\u0430\u0434\u043D\u043E,
+      \u044F \u0435\u0449\u0435 \u0432\u0435\u0440\u043D\u0443\u0441\u044C."
+    QuestRewardText: 20$
+    MoneyReward: 20
+    RepReward: 0
+    UnlockLevelReward: 0
+    UnlockElementCount: 0
+    BossSprite: {fileID: 1471068492, guid: 50c64546b4ec08949ba3e6fca8448668, type: 3}
+    CookingPlace: 0
+  - QuestName: "\u0414\u0435\u043B\u043E\u0432\u043E\u0439 \u043A\u0432\u0430\u0440\u0442\u0435\u0442"
+    QuestFromFraction: 2
+    QuestBody: "\u041C\u043E\u0438 \u043F\u0430\u0440\u0442\u043D\u0435\u0440\u044B
+      \u0441\u0438\u043B\u044C\u043D\u043E \u043F\u0440\u043E\u0433\u043E\u043B\u043E\u0434\u0430\u043B\u0438\u0441\u044C,
+      \u0430 \u0442\u0440\u0430\u0442\u0438\u0442\u044C\u0441\u044F \u043D\u0430
+      \u043D\u0438\u0445 \u044F \u043D\u0435 \u043E\u0441\u043E\u0431\u043E \u0445\u043E\u0447\u0443.
+      \u041D\u0430\u043A\u043E\u0440\u043C\u0438 \u0438\u0445 \u0447\u0435\u043C-\u043D\u0438\u0431\u0443\u0434\u044C"
+    QuestDishesNeed: 04000000
+    QuestDishesHave: 00000000
+    QuestDish:
+    - "\u041C\u0430\u0440\u0433\u0430\u0440\u0438\u0442\u0430"
+    ReputationBarrier: 2
+    QuestLevel: 2
+    QuestStatus: 0
+    QuestDone: "\u0427\u0442\u043E \u0436, \u0432\u0441\u0435 \u043E\u0441\u0442\u0430\u043B\u0438\u0441\u044C
+      \u0434\u043E\u0432\u043E\u043B\u044C\u043D\u044B. \u041C\u043D\u0435 \u0438\u0437\u0432\u0435\u0441\u0442\u043D\u043E,
+      \u0447\u0442\u043E \u0432 \u0433\u043E\u0440\u043E\u0434\u0435 \u0437\u0430\u043A\u0440\u044B\u043B\u0430\u0441\u044C
+      \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u044F\u044F \u043C\u0435\u0431\u0435\u043B\u044C\u043D\u0430\u044F
+      \u0444\u0430\u0431\u0440\u0438\u043A\u0430, \u043D\u043E \u044F \u043F\u043E\u043C\u043E\u0433\u0443
+      \u0442\u0435\u0431\u0435. \u0422\u044B \u043F\u043E\u043B\u0443\u0447\u0438\u0448\u044C
+      \u043E\u043D \u043C\u0435\u043D\u044F \u043F\u0430\u0440\u0443 \u043D\u043E\u0432\u044B\u0445
+      \u0441\u0442\u043E\u043B\u043E\u0432\u2026 \u043F\u043E \u0445\u043E\u0440\u043E\u0448\u0435\u0439
+      \u0446\u0435\u043D\u0435."
+    QuestRewardText: "2 \u0434\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0445
+      \u043C\u0435\u0441\u0442\u0430 \u0434\u043B\u044F \u0443\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0438
+      \u0441\u0442\u043E\u043B\u043E\u0432"
+    MoneyReward: 0
+    RepReward: 0
+    UnlockLevelReward: 0
+    UnlockElementCount: 2
+    BossSprite: {fileID: 1471068492, guid: 50c64546b4ec08949ba3e6fca8448668, type: 3}
+    CookingPlace: 0
+  - QuestName: "\u0411\u0435\u0437 \u043B\u0438\u0448\u043D\u0438\u0445 \u0432\u043E\u043F\u0440\u043E\u0441\u043E\u0432"
+    QuestFromFraction: 2
+    QuestBody: "\u041C\u043E\u0438 \u043B\u044E\u0434\u0438 \u0441\u0435\u0433\u043E\u0434\u043D\u044F
+      \u0442\u0430\u043A \u043E\u0442\u043B\u0438\u0447\u043D\u043E \u043F\u043E\u0440\u0430\u0431\u043E\u0442\u0430\u043B\u0438.
+      \u0414\u0443\u043C\u0430\u044E, \u0441\u0442\u043E\u0438\u0442 \u043E\u043A\u043E\u043D\u0447\u0430\u0442\u0435\u043B\u044C\u043D\u043E
+      \u0443\u0442\u043E\u043B\u0438\u0442\u044C \u0438\u0445 \u0433\u043E\u043B\u043E\u0434
+      - \u043C\u044F\u0441\u043E\u043C. \u0421\u043F\u0440\u0430\u0432\u0438\u0448\u044C\u0441\u044F,
+      \u0438\u043B\u0438 \u043C\u043D\u0435 \u043D\u0430\u0439\u0442\u0438 \u0434\u0440\u0443\u0433\u043E\u0433\u043E
+      \u0447\u0435\u043B\u043E\u0432\u0435\u043A\u0430?"
+    QuestDishesNeed: 06000000
+    QuestDishesHave: 00000000
+    QuestDish:
+    - "\u0421\u0442\u0435\u0439\u043A"
+    ReputationBarrier: 3
+    QuestLevel: 3
+    QuestStatus: 0
+    QuestDone: "\u0427\u0442\u043E \u0436, \u0432\u0441\u0435 \u043E\u0441\u0442\u0430\u043B\u0438\u0441\u044C
+      \u0434\u043E\u0432\u043E\u043B\u044C\u043D\u044B. \u041C\u043D\u0435 \u0438\u0437\u0432\u0435\u0441\u0442\u043D\u043E,
+      \u0447\u0442\u043E \u0432 \u0433\u043E\u0440\u043E\u0434\u0435 \u0437\u0430\u043A\u0440\u044B\u043B\u0430\u0441\u044C
+      \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u044F\u044F \u043C\u0435\u0431\u0435\u043B\u044C\u043D\u0430\u044F
+      \u0444\u0430\u0431\u0440\u0438\u043A\u0430, \u043D\u043E \u044F \u043F\u043E\u043C\u043E\u0433\u0443
+      \u0442\u0435\u0431\u0435. \u0422\u044B \u043F\u043E\u043B\u0443\u0447\u0438\u0448\u044C
+      \u043E\u043D \u043C\u0435\u043D\u044F \u043F\u0430\u0440\u0443 \u043D\u043E\u0432\u044B\u0445
+      \u0441\u0442\u043E\u043B\u043E\u0432\u2026 \u043F\u043E \u0445\u043E\u0440\u043E\u0448\u0435\u0439
+      \u0446\u0435\u043D\u0435."
+    QuestRewardText: "2 \u0434\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0445
+      \u043C\u0435\u0441\u0442\u0430 \u0434\u043B\u044F \u0443\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0438
+      \u0441\u0442\u043E\u043B\u043E\u0432"
+    MoneyReward: 0
+    RepReward: 0
+    UnlockLevelReward: 0
+    UnlockElementCount: 2
+    BossSprite: {fileID: 1471068492, guid: 50c64546b4ec08949ba3e6fca8448668, type: 3}
+    CookingPlace: 0
+  - QuestName: "\u0412\u0430\u0436\u043D\u0430\u044F \u0432\u0441\u0442\u0440\u0435\u0447\u0430"
+    QuestFromFraction: 2
+    QuestBody: "\u0412\u0438\u0434\u0438\u043C\u043E \u0442\u044B \u0443\u043C\u0435\u0435\u0448\u044C
+      \u0440\u0430\u0431\u043E\u0442\u0430\u0442\u044C \u0433\u043E\u043B\u043E\u0432\u043E\u0439
+      \u0438 \u043F\u0440\u043E\u0447\u0438\u043C\u0438 \u0447\u0430\u0441\u0442\u044F\u043C\u0438
+      \u0442\u0435\u043B\u0430. \u041C\u043E\u0433\u0443 \u043B\u0438 \u044F \u0434\u043E\u0432\u0435\u0440\u0438\u0442\u044C
+      \u0442\u0435\u0431\u0435 \u0443\u0441\u0442\u0440\u043E\u0438\u0442\u044C \u0443\u0436\u0438\u043D
+      \u0434\u043B\u044F \u043C\u043E\u0438\u0445 \u0434\u043E\u0440\u043E\u0433\u0438\u0445
+      \u043F\u0430\u0440\u0442\u043D\u0435\u0440\u043E\u0432?"
+    QuestDishesNeed: 030000000300000003000000
+    QuestDishesHave: 000000000000000000000000
+    QuestDish:
+    - "\u041C\u0430\u0440\u0433\u0430\u0440\u0438\u0442\u0430"
+    - "\u0421\u0442\u0435\u0439\u043A"
+    - "\u041A\u0430\u0440\u0442\u043E\u0444\u0435\u043B\u044C \u0444\u0440\u0438"
+    ReputationBarrier: 4
+    QuestLevel: 4
+    QuestStatus: 0
+    QuestDone: "\u0418\u0442\u0430\u043A, \u0442\u044B \u0445\u043E\u0440\u043E\u0448\u043E
+      \u043F\u043E\u0441\u0442\u0430\u0440\u0430\u043B\u0441\u044F. \u0417\u0430
+      \u044D\u0442\u043E \u0442\u044B \u043F\u043E\u043B\u0443\u0447\u0430\u0435\u0448\u044C
+      \u043C\u043E\u0435 \u043F\u0440\u0438\u0437\u043D\u0430\u043D\u0438\u0435 \u0438
+      \u0435\u0449\u0435, \u043D\u0435\u0431\u043E\u043B\u044C\u0448\u043E\u0439
+      \u0431\u043E\u043D\u0443\u0441 \u0432 \u043F\u0440\u0438\u0434\u0430\u0447\u0443."
+    QuestRewardText: 300$
+    MoneyReward: 300
+    RepReward: 0
+    UnlockLevelReward: 0
+    UnlockElementCount: 0
+    BossSprite: {fileID: 1471068492, guid: 50c64546b4ec08949ba3e6fca8448668, type: 3}
+    CookingPlace: 0
+  - QuestName: "\u0421\u0432\u0435\u0442\u0441\u043A\u0430\u044F \u043F\u0442\u0438\u0446\u0430"
+    QuestFromFraction: 3
+    QuestBody: "\u041E\u0434\u043D\u0430 \u043F\u0442\u0438\u0447\u043A\u0430 \u043D\u0430\u043F\u0435\u043B\u0430
+      \u043C\u043D\u0435, \u0447\u0442\u043E \u0443 \u043B\u044E\u0431\u0438\u043C\u043E\u0433\u043E
+      \u0440\u0435\u0441\u0442\u043E\u0440\u0430\u043D\u0430 \u0442\u0435\u043F\u0435\u0440\u044C
+      \u043D\u043E\u0432\u043E\u0435 \u043B\u0438\u0446\u043E. \u041F\u0440\u0438\u044F\u0442\u043D\u043E
+      \u043F\u043E\u0437\u043D\u0430\u043A\u043E\u043C\u0438\u0442\u044C\u0441\u044F,
+      \u0438 \u043C\u043E\u0436\u043D\u043E \u043C\u043D\u0435 \"\u043A\u0430\u043A
+      \u043E\u0431\u044B\u0447\u043D\u043E\u201D?"
+    QuestDishesNeed: 02000000
+    QuestDishesHave: 00000000
+    QuestDish:
+    - "\u041A\u0440\u0435\u043C-\u0441\u0443\u043F"
+    ReputationBarrier: 1
+    QuestLevel: 1
+    QuestStatus: 0
+    QuestDone: "\u041D\u0443, \u043D\u0435 \u0442\u0430\u043A \u0443\u0436 \u043F\u043B\u043E\u0445\u043E.
+      \u0414\u0443\u043C\u0430\u044E, \u044D\u0442\u043E \u043C\u0435\u0441\u0442\u043E
+      \u043D\u0435 \u0437\u0430\u043A\u0440\u043E\u0435\u0442\u0441\u044F, \u043F\u043E\u043A\u0430
+      \u0447\u0442\u043E. \u041A\u0441\u0442\u0430\u0442\u0438, \u043E\u0434\u0438\u043D
+      \u043C\u043E\u0439 \u0437\u043D\u0430\u043A\u043E\u043C\u044B\u0439 \u043F\u0440\u0438\u0432\u0435\u0437
+      \u0434\u043B\u044F \u043C\u0435\u043D\u044F \u0445\u043E\u0440\u043E\u0448\u0443\u044E
+      \u043A\u0443\u0445\u043E\u043D\u043D\u0443\u044E \u0442\u0435\u0445\u043D\u0438\u043A\u0443,
+      \u044F \u0443\u0441\u0442\u0443\u043F\u043B\u044E \u0435\u0435 \u0442\u0435\u0431\u0435
+      \u0441 \u0445\u043E\u0440\u043E\u0448\u0435\u0439 \u0441\u043A\u0438\u0434\u043A\u043E\u0439."
+    QuestRewardText: "\u0414\u043E\u0441\u0442\u0443\u043F \u043A \u043F\u043E\u043A\u0443\u043F\u043A\u0435
+      \u043F\u0435\u0447\u0438"
+    MoneyReward: 0
+    RepReward: 0
+    UnlockLevelReward: 0
+    UnlockElementCount: 1
+    BossSprite: {fileID: 535437855, guid: 50c64546b4ec08949ba3e6fca8448668, type: 3}
+    CookingPlace: 0
+  - QuestName: "\u0413\u043E\u0441\u0442\u0438 \u0434\u043E\u0440\u043E\u0433\u0438\u0435"
+    QuestFromFraction: 3
+    QuestBody: "\u041C\u043E\u0438 \u043D\u044C\u044E-\u0439\u043E\u0440\u043A\u0441\u043A\u0438\u0435
+      \u0433\u043E\u0441\u0442\u0438 \u0432\u0441\u0435 \u043D\u0438\u043A\u0430\u043A
+      \u043D\u0435 \u043C\u043E\u0433\u0443\u0442 \u043F\u043E\u043D\u044F\u0442\u044C
+      \u043D\u0430\u0448 \u0433\u043E\u0440\u043E\u0434. \u0414\u0443\u043C\u0430\u044E
+      \u043D\u0430\u0448\u0430 \u0444\u0438\u0440\u043C\u0435\u043D\u043D\u0430\u044F
+      \u043F\u0438\u0446\u0446\u0430 \u0438\u0445 \u0443\u0434\u0438\u0432\u0438\u0442.
+      \u041C\u043E\u0436\u0435\u0442 \u0442\u043E\u0433\u0434\u0430 \u043E\u043D\u0438
+      \u0443\u0437\u043D\u0430\u044E\u0442, \u0447\u0442\u043E \u043D\u0435 \u0432\u0441\u0435
+      \u043F\u0440\u043E\u0434\u0430\u0435\u0442\u0441\u044F \u0432 \u0433\u043E\u0440\u043E\u0434\u0435
+      \u0431\u043E\u043B\u044C\u0448\u043E\u0433\u043E \u044F\u0431\u043B\u043E\u043A\u0430."
+    QuestDishesNeed: 04000000
+    QuestDishesHave: 00000000
+    QuestDish:
+    - "\u0413\u043B\u0443\u0431\u043E\u043A\u0430\u044F \u043F\u0438\u0446\u0446\u0430
+      \u043F\u043E-\u0427\u0438\u043A\u0430\u0433\u0441\u043A\u0438"
+    ReputationBarrier: 2
+    QuestLevel: 2
+    QuestStatus: 0
+    QuestDone: "\u041D\u0435\u043F\u043B\u043E\u0445\u043E, \u0441\u043E\u0432\u0441\u0435\u043C
+      \u043D\u0435\u043F\u043B\u043E\u0445\u043E. \u041A\u0441\u0442\u0430\u0442\u0438,
+      \u043E\u0434\u0438\u043D \u043C\u043E\u0439 \u0437\u043D\u0430\u043A\u043E\u043C\u044B\u0439
+      \u043F\u0440\u0438\u0432\u0435\u0437 \u0434\u043B\u044F \u043C\u0435\u043D\u044F
+      \u0445\u043E\u0440\u043E\u0448\u0443\u044E \u043D\u043E\u0432\u0443\u044E \u0442\u0435\u0445\u043D\u0438\u043A\u0443,
+      \u044F \u0443\u0441\u0442\u0443\u043F\u043B\u044E \u0435\u0435 \u0442\u0435\u0431\u0435
+      \u0441 \u0445\u043E\u0440\u043E\u0448\u0435\u0439 \u0441\u043A\u0438\u0434\u043A\u043E\u0439."
+    QuestRewardText: "\u0414\u043E\u0441\u0442\u0443\u043F \u043A \u043F\u043E\u043A\u0443\u043F\u043A\u0435
+      \u0433\u0440\u0438\u043B\u044F"
+    MoneyReward: 0
+    RepReward: 0
+    UnlockLevelReward: 0
+    UnlockElementCount: 2
+    BossSprite: {fileID: 535437855, guid: 50c64546b4ec08949ba3e6fca8448668, type: 3}
+    CookingPlace: 0
+  - QuestName: "\u041C\u043E\u0434\u043D\u0430\u044F \u0434\u0438\u0435\u0442\u0430"
+    QuestFromFraction: 3
+    QuestBody: "\u0414\u043E\u043D\u0430\u043B\u044C\u0434 \u0423\u043E\u0442\u0441\u043E\u043D
+      \u0438\u0437 \u0411\u0438\u0440\u043C\u0438\u043D\u0433\u0435\u043C\u0430 \u043D\u0430\u0431\u0438\u0440\u0430\u0435\u0442
+      \u043F\u043E\u043F\u0443\u043B\u044F\u0440\u043D\u043E\u0441\u0442\u044C \u0441\u043E
+      \u0441\u0432\u043E\u0435\u0439 \u0438\u0434\u0435\u0435\u0439 \u0432\u0435\u0433\u0430\u043D\u0441\u0442\u0432\u0430.
+      \u0414\u0443\u043C\u0430\u044E \u0441\u0442\u043E\u0438\u0442 \u043F\u043E\u043F\u0440\u043E\u0431\u043E\u0432\u0430\u0442\u044C
+      \u0438 \u043D\u0430\u043C. \u0422\u044B \u0432\u0435\u0434\u044C \u043F\u043E\u043D\u0438\u043C\u0430\u0435\u0448\u044C
+      \u043E \u0447\u0435\u043C \u044F \u0433\u043E\u0432\u043E\u0440\u044E?"
+    QuestDishesNeed: 0300000005000000
+    QuestDishesHave: 0000000000000000
+    QuestDish:
+    - "\u041A\u0440\u0435\u043C-\u0441\u0443\u043F"
+    - "\u041E\u0432\u043E\u0449\u0438 \u0433\u0440\u0438\u043B\u044C"
+    ReputationBarrier: 3
+    QuestLevel: 3
+    QuestStatus: 0
+    QuestDone: "\u041D\u0435\u043F\u043B\u043E\u0445\u043E, \u0441\u043E\u0432\u0441\u0435\u043C
+      \u043D\u0435\u043F\u043B\u043E\u0445\u043E. \u041A\u0441\u0442\u0430\u0442\u0438,
+      \u043E\u0434\u0438\u043D \u043C\u043E\u0439 \u0437\u043D\u0430\u043A\u043E\u043C\u044B\u0439
+      \u043F\u0440\u0438\u0432\u0435\u0437 \u0434\u043B\u044F \u043C\u0435\u043D\u044F
+      \u0445\u043E\u0440\u043E\u0448\u0443\u044E \u043D\u043E\u0432\u0443\u044E \u0442\u0435\u0445\u043D\u0438\u043A\u0443,
+      \u044F \u0443\u0441\u0442\u0443\u043F\u043B\u044E \u0435\u0435 \u0442\u0435\u0431\u0435
+      \u0441 \u0445\u043E\u0440\u043E\u0448\u0435\u0439 \u0441\u043A\u0438\u0434\u043A\u043E\u0439."
+    QuestRewardText: "\u0414\u043E\u0441\u0442\u0443\u043F \u043A \u043F\u043E\u043A\u0443\u043F\u043A\u0435
+      \u0444\u0440\u0438\u0442\u044E\u0440\u0430"
+    MoneyReward: 0
+    RepReward: 0
+    UnlockLevelReward: 0
+    UnlockElementCount: 3
+    BossSprite: {fileID: 535437855, guid: 50c64546b4ec08949ba3e6fca8448668, type: 3}
+    CookingPlace: 0
+  - QuestName: "\u041A\u0443\u043B\u044C\u0442\u0443\u0440\u043D\u0430\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0430"
+    QuestFromFraction: 3
+    QuestBody: "\u0421\u0435\u0433\u043E\u0434\u043D\u044F \u0434\u043D\u0435\u043C
+      \u043C\u044B \u0441 \u0434\u0440\u0443\u0437\u044C\u044F\u043C\u0438 \u0431\u044B\u043B\u0438
+      \u0432 \u0432\u0430\u0448\u0435\u043C \u043F\u0440\u043E\u0432\u0438\u043D\u0446\u0438\u0430\u043B\u044C\u043D\u043E\u043C
+      \u0442\u0435\u0430\u0442\u0440\u0435, \u043D\u0430\u043C \u0445\u043E\u0447\u0435\u0442\u0441\u044F
+      \u0447\u0435\u0433\u043E-\u0442\u043E \u043F\u0440\u043E\u0441\u0442\u043E\u0433\u043E
+      \u0438 \u0434\u0435\u0440\u0435\u0432\u0435\u043D\u0441\u043A\u043E\u0433\u043E.
+      \u041D\u0430 \u0443\u043C \u043F\u0440\u0438\u0445\u043E\u0434\u0438\u0442
+      \u0441\u0440\u0435\u0434\u0438\u0437\u0435\u043C\u043D\u043E\u043C\u043E\u0440\u044C\u0435.
+      \u041C\u043E\u0436\u0435\u0448\u044C \u043F\u0440\u0435\u0434\u043B\u043E\u0436\u0438\u0442\u044C
+      \u043D\u0430\u043C \u0447\u0442\u043E \u043D\u0438\u0431\u0443\u0434\u044C
+      \u043F\u043E\u043C\u0438\u043C\u043E \u043A\u0435\u0431\u0430\u0431\u0430?"
+    QuestDishesNeed: 040000000400000004000000
+    QuestDishesHave: 000000000000000000000000
+    QuestDish:
+    - "\u041A\u0440\u0435\u043C-\u0441\u0443\u043F"
+    - "\u041E\u0432\u043E\u0449\u0438 \u0433\u0440\u0438\u043B\u044C"
+    - "\u0424\u0440\u0443\u043A\u0442\u044B \u0432 \u043A\u0430\u0440\u0430\u043C\u0435\u043B\u0438"
+    ReputationBarrier: 4
+    QuestLevel: 4
+    QuestStatus: 0
+    QuestDone: "\u042D\u0442\u043E \u0433\u0440\u0430\u043D\u0434\u0438\u043E\u0437\u043D\u044B\u0439
+      \u0443\u0441\u043F\u0435\u0445, \u043D\u0430\u0448 \u0432\u0435\u0447\u0435\u0440
+      \u0443\u0434\u0430\u043B\u0441\u044F! \u042F \u043F\u043E\u0434\u0430\u0440\u044E
+      \u0442\u0435\u0431\u0435 \u043A\u043E\u0435-\u0447\u0442\u043E, \u044D\u0442\u043E
+      \u0441\u043E\u0437\u0434\u0430\u0441\u0442 \u0432 \u0442\u0432\u043E\u0435\u043C
+      \u0440\u0435\u0441\u0442\u043E\u0440\u0430\u043D\u0435 \u043E\u0441\u043E\u0431\u0435\u043D\u043D\u0443\u044E
+      \u0430\u0442\u043C\u043E\u0441\u0444\u0435\u0440\u0443."
+    QuestRewardText: "\u0414\u043E\u0441\u0442\u0443\u043F \u043A \u0443\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0435
+      \u043C\u0443\u0437\u044B\u043A\u0430\u043B\u044C\u043D\u043E\u0433\u043E \u0430\u043F\u043F\u0430\u0440\u0430\u0442\u0430"
+    MoneyReward: 0
+    RepReward: 0
+    UnlockLevelReward: 0
+    UnlockElementCount: 4
+    BossSprite: {fileID: 535437855, guid: 50c64546b4ec08949ba3e6fca8448668, type: 3}
+    CookingPlace: 0
+  _questCanvas: {fileID: 0}
+  activeQuestsCount: 0
+--- !u!114 &931417827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828771273781275562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8222ef0331eaf1c4293f4a84f24f035f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1284062091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828771273781275562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26fbf8597625c944ca8398303ac5dc23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _fractionBaseRep: 1
+--- !u!114 &1163924030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828771273781275562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c8f9d390585e9843ae28e4ca1c7f277, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _createPosition: {fileID: 0}
+--- !u!114 &869634207460119627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828771273781275562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c8bcf4073e1d04b88e4425d43af8ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5641787471587010111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828771273781275562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42fe2ac9cb8893c4bbb7d79f80c29896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6799642013391764462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828771273781275562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a213c5b0bb239f5439a450f50517aabb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &860181038565582276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828771273781275562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ea99b8f511119a4a907503c8683ec2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7612049152651853390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828771273781275562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3d63987b3e1e4048b33ed7689a44f5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1943552556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828771273781275562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 528850cab6f9a7e4e969ec4b027450b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _students: {fileID: 5641787471587010111}
+  _family: {fileID: 6799642013391764462}
+  _mafia: {fileID: 860181038565582276}
+  _bohemia: {fileID: 7612049152651853390}
+--- !u!114 &8112816397687521797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828771273781275562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd784acc1c6ae93419e85c9c5f5ac6e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _questText: {fileID: 0}
+  _questName: {fileID: 0}
+  _bossSprite: {fileID: 0}
+  targetTexts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  targetSprites:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &852330210179429383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828771273781275562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 453b92795c6a1864eb6c996448362e74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upgratePanels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &8087725008824095371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828771273781275562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d73fbf5e86930e49b848f6b0d096e2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _blue: {fileID: 0}
+  _green: {fileID: 0}
+  _red: {fileID: 0}
+  _white: {fileID: 0}
+--- !u!114 &3398685389919850932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828771273781275562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a5d029d2af81a24cb9297abc8220241, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slot: {fileID: 5409309275769171975, guid: 3229f146967ea66418eb7f92072e2c2d, type: 3}
+  _parent: {fileID: 0}

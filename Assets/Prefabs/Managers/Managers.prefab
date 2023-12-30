@@ -1,0 +1,234 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3129298543597217547
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3129298543597217546}
+  - component: {fileID: 3129298543597217545}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3129298543597217546
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3129298543597217547}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3129298544681937692}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3129298543597217545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3129298543597217547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c6588f3743386d41b0d3dcb32ac18d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Enter client
+    clip: {fileID: 8300000, guid: b3271267b2a88804aab16b1a3a48e604, type: 3}
+    volume: 0.448
+    pitch: 1.96
+    loop: 0
+    source: {fileID: 0}
+  - name: Order
+    clip: {fileID: 8300000, guid: 0236fc840a64a40478501a10723db422, type: 3}
+    volume: 0.442
+    pitch: 1.87
+    loop: 0
+    source: {fileID: 0}
+  - name: Wait female
+    clip: {fileID: 8300000, guid: 05cb173a4e46f0d46be24eede95cd954, type: 3}
+    volume: 0.448
+    pitch: 1.93
+    loop: 0
+    source: {fileID: 0}
+  - name: Wait male
+    clip: {fileID: 8300000, guid: f7129fb38c128de4db96e288ba1d6e1c, type: 3}
+    volume: 0.448
+    pitch: 1.88
+    loop: 0
+    source: {fileID: 0}
+  - name: StoveAndGrill
+    clip: {fileID: 8300000, guid: 9e3d3f70f92435243acd77c54adde675, type: 3}
+    volume: 0.448
+    pitch: 1.86
+    loop: 0
+    source: {fileID: 0}
+  - name: OvenAndFryer
+    clip: {fileID: 8300000, guid: 554cc4add00765248815eae83741818c, type: 3}
+    volume: 0.412
+    pitch: 1.86
+    loop: 0
+    source: {fileID: 0}
+  - name: Pleased  female
+    clip: {fileID: 8300000, guid: 98d48dcf465b9c841afe02341f78ef3a, type: 3}
+    volume: 0.424
+    pitch: 1.86
+    loop: 0
+    source: {fileID: 0}
+  - name: Pleased male
+    clip: {fileID: 8300000, guid: 0c66f9cf7cc593d4ab17893fcb253b7f, type: 3}
+    volume: 0.448
+    pitch: 1.9
+    loop: 0
+    source: {fileID: 0}
+  - name: Unpleased female
+    clip: {fileID: 8300000, guid: b1ea2480faaf62344b3071f1a9031470, type: 3}
+    volume: 0.46
+    pitch: 1.92
+    loop: 0
+    source: {fileID: 0}
+  - name: Unpleased male
+    clip: {fileID: 8300000, guid: a20fb3afa91ea8d4193b151684ee008d, type: 3}
+    volume: 0.466
+    pitch: 1.94
+    loop: 0
+    source: {fileID: 0}
+  - name: Payment
+    clip: {fileID: 8300000, guid: c1bee7f309cf5cc4992cc092684edd18, type: 3}
+    volume: 0.526
+    pitch: 1.44
+    loop: 0
+    source: {fileID: 0}
+  - name: Flush
+    clip: {fileID: 8300000, guid: ffba7d2e6d86f2e4594ab41e70ab1118, type: 3}
+    volume: 0.5
+    pitch: 1.43
+    loop: 0
+    source: {fileID: 0}
+  - name: Table cleaning
+    clip: {fileID: 8300000, guid: d8153e41d3ece004097476c4c26f048d, type: 3}
+    volume: 0.5
+    pitch: 1.2
+    loop: 0
+    source: {fileID: 0}
+  - name: Cleaning
+    clip: {fileID: 8300000, guid: e14ff0d92da2950499b5c60a8286628d, type: 3}
+    volume: 0.5
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Leaving
+    clip: {fileID: 8300000, guid: 61004cdd0a59bd04098588ce52a2bf23, type: 3}
+    volume: 0.5
+    pitch: 1.44
+    loop: 0
+    source: {fileID: 0}
+  - name: Click
+    clip: {fileID: 8300000, guid: e69e32f73243557449b8eb6474099fcb, type: 3}
+    volume: 0.5
+    pitch: 1.56
+    loop: 0
+    source: {fileID: 0}
+  - name: Jukebox
+    clip: {fileID: 8300000, guid: ccfde9117e4dd2d45b761a917a6f32b2, type: 3}
+    volume: 0.466
+    pitch: 1.79
+    loop: 0
+    source: {fileID: 0}
+  - name: MainTheme
+    clip: {fileID: 8300000, guid: d827cc9720b6ae646b71b8739ddf142e, type: 3}
+    volume: 0.31
+    pitch: 1.79
+    loop: 1
+    source: {fileID: 0}
+--- !u!1 &3129298543754800571
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3129298543754800570}
+  - component: {fileID: 3129298543754800569}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3129298543754800570
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3129298543754800571}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3129298544681937692}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3129298543754800569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3129298543754800571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6570940a33b2b2e4fa8b02068a41e912, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiManager: {fileID: 0}
+  tutorial: {fileID: 0}
+--- !u!1 &3129298544681937693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3129298544681937692}
+  m_Layer: 0
+  m_Name: Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3129298544681937692
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3129298544681937693}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3129298543754800570}
+  - {fileID: 3129298543597217546}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
